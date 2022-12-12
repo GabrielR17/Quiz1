@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        @import 'style.css';
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="cliente.html">NUEVO CLIENTE</a></li>
+    </ul>
+
+    <h1>NUEVO CLIENTE</h1>
+    <div class="formulario">
+        <form method="POST" enctype="multipart/form-data">
+            <br><label for="identificacion">Numero Documento: </label><input type="number"
+                id="identificacion" /><br><br>
+            <label for="name">Nombres: </label>
+            <input type="text" name="name" id="name" /><br><br>
+            <label for="apellido">Apellidos: </label>
+            <input type="text" name="apellido" id="apellido" /><br>
+            <br><br>
+            <input type="submit" value="GUARDAR" id="GUARDAR"><br><br>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

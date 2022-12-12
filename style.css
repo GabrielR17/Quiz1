@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    position: static;
+    padding: 10px;
+    background-color: #333;
+    justify-content: left;
+    width: 100%;
+    height: 30px;
+}
+
+li {
+    padding-top: 5px;
+    padding-left: 5%;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+
+    border: 1px solid;
+    position: relative;
+    margin: auto;
+}
+
+tr {
+    border: 1px solid;
+    margin: auto;
+
+}
+
+table tr td {
+    padding: 10px 60px 10px 10px;
+}
+
+div {
+    border: 1px solid;
+    width: 60%;
+    position: relative;
+    left: 250px;
+    border-radius: 5px;
+}
+
+input {
+    position: relative;
+    left: 44px;
+    border-radius: 5px;
+}
+
+#identificacion {
+    position: relative;
+    left: 10px;
+}
+
+#GUARDAR {
+    border-radius: 5px;
+    position: relative;
+    left: 1px;
+}
